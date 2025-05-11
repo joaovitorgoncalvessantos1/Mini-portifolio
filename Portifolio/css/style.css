@@ -1,0 +1,77 @@
+/* Reset básico */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Estilo do body */
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #8FC1B5; /* tom mais claro do teal */
+  color: #265C4B; /* tom mais escuro para o texto */
+  line-height: 1.6;
+}
+
+/* Cabeçalho */
+header {
+  background-color: #007566; /* tom forte de teal */
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+/* Navegação */
+nav {
+  background-color: #146551;
+  padding: 10px;
+  text-align: center;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  margin: 0 15px;
+  font-weight: bold;
+}
+
+nav a:hover {
+  color: #8FC1B5; /* hover em tom claro */
+}
+
+/* Seções */
+section {
+  padding: 40px 20px;
+  max-width: 800px;
+  margin: auto;
+}
+
+/* Projetos */
+.projetos a {
+  display: inline-block;
+  background-color: #589A8D;
+  color: white;
+  padding: 10px 20px;
+  margin: 10px 0;
+  border-radius: 8px;
+  text-decoration: none;
+}
+
+.projetos a:hover {
+  background-color: #007565b8;
+  font-size: large;
+}
+
+/* Rodapé */
+footer {
+  background-color: #265C4B;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  margin-top: 40px;
+  list-style: none;
+}
+footer a {
+  text-decoration: none;
+}
+
